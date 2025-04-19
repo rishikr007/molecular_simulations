@@ -14,3 +14,6 @@ This repo contains the repo for simulating a gaseous system reaching equilibirum
 ### Some notes:
 - MC is extremely computationally expensive. This code was also run for 700 atoms with the same idea which continued for around 220 days!^[System details: The simulation was performed on an Intel i7-12700 (12th Gen) processor with 20 cores.]
 - The above systems are best visualized with VMD. 
+
+![Number Density Plot](images/numberdensity.png)
+
