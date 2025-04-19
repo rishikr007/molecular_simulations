@@ -12,8 +12,10 @@ Scilab is an open-source software platform for numerical computation. It is a hi
 This repo contains the repo for simulating a gaseous system reaching equilibirum through the above mentioned approaches - MD and MC. `md_N100.sci` corresponds to obtaining the trajectories of a system containing 100 atoms, using MD, and similarly, `mc_n100.sci` corresponding to the MC approach, with 100 atoms. 
 
 ### Some notes:
-MC is extremely computationally expensive. This code was also run for 700 atoms with the same idea which continued for around 220 days!^[System details: The simulation was performed on an Intel i7-12700 (12th Gen) processor with 20 cores.]
+- MC is extremely computationally expensive. This code was also run for 700 atoms with the same idea which continued for around 220 days! [^1]
 - The above systems are best visualized with VMD. 
 
 ![Number Density Plot](images/numberdensity.png)
 
+
+[^1]: System details: The simulation was performed on an Intel i7-12700 (12th Gen) processor with 20 cores.
